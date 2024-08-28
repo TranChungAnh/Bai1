@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    bài 2 : phần 1  khi người dùng nhấn nút thì xuất một số-->
+<!--    ngẫu nhiên ra màn hình-->
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="50sp"
+        android:layout_weight="1"
+       />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="RANDOM NUMBER"
+
+        />
+
+</LinearLayout>-->
+
+<!-- bài 2 Phần 2 Cải tiến để minh họa tung khối xúc xắc 6 mặt như hình phải-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/sucsac1"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="RANDOM NUMBER"
+
+        />
+
+</LinearLayout>
